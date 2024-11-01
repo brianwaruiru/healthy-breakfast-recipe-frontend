@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Breakfast Recipe Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Healthy Breakfast Recipe Generator</h1>
+        <form id="recipeForm">
+            <label for="recipeSelector">Choose a breakfast recipe:</label>
+            <select id="recipeSelector" required>
+                <option value="">Select a recipe...</option>
+                <option value="1">Smoothie Recipe: Banana, Spinach & Chia Seeds</option>
+                <option value="2">Yogurt Parfait with Berries</option>
+                <option value="3">Overnight Oats with Almond Milk</option>
+                <option value="4">Avocado Toast with Cherry Tomatoes</option>
+                <option value="5">Egg and Cheese Breakfast Quesadilla</option>
+            </select>
+            <button type="submit">Get Recipe</button>
+        </form>
+        <div id="recipeOutput" class="output"></div>
+    </div>
+</body>
+</html>
 
